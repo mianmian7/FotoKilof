@@ -130,9 +130,17 @@ else:
 # set locale for Windows
 if OS == "Windows":
     import locale
-
+    # If LANG is not set, try to determine it from Windows locale settings
     if os.getenv("LANG") is None:
-        os.environ["LANG"] = locale.getlocale()[0]
+        lang_code, encoding = locale.getlocale()
+        if lang_code == 'Chinese (Simplified)_China':
+            os.environ["LANG"] = 'zh_CN'
+        else:
+            # Use the language string from locale, though it might not always match a .mo file
+            os.environ["LANG"] = lang_code
+    else:
+        # If LANG is set, strip any whitespace
+        os.environ["LANG"] = os.getenv("LANG").strip()
 
 localedir = os.path.join(os.path.abspath(os.path.dirname(__file__)), "locale")
 if not os.path.isdir(localedir):

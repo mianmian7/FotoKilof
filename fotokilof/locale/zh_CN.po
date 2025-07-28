@@ -1,0 +1,942 @@
+# Chinese translations for PACKAGE package
+# PACKAGE 简体中文翻译文件.
+# Copyright (C) 2025 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# Automatically generated, 2025.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-06-02 05:59+0800\n"
+"PO-Revision-Date: 2025-07-28 10:00+0800\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: fotokilof.py:324 fotokilof.py:493 fotokilof.py:507 fotokilof.py:528
+#: fotokilof.py:542 fotokilof.py:558 fotokilof.py:574 fotokilof.py:590
+#: fotokilof.py:610 fotokilof.py:626 fotokilof.py:649 fotokilof.py:724
+#: fotokilof.py:745 fotokilof.py:811
+msgid "Processing"
+msgstr "处理中"
+
+#: fotokilof.py:474
+msgid "of"
+msgstr "的"
+
+#: fotokilof.py:483 fotokilof.py:502 fotokilof.py:523 fotokilof.py:537
+#: fotokilof.py:553 fotokilof.py:569 fotokilof.py:585 fotokilof.py:605
+#: fotokilof.py:621 fotokilof.py:644 fotokilof.py:666 fotokilof.py:740
+#: fotokilof.py:771 fotokilof.py:829
+msgid "done"
+msgstr "完成"
+
+#: fotokilof.py:835
+msgid "Select picture for composing"
+msgstr "选择图片进行合成"
+
+#: fotokilof.py:847
+msgid "Select logo picture for inserting"
+msgstr "选择要插入的徽标图片"
+
+#: fotokilof.py:862
+msgid "Select picture for processing"
+msgstr "选择要处理的图片"
+
+#: fotokilof.py:886 fotokilof.py:895
+msgid "All graphics files"
+msgstr "所有图形文件"
+
+#: fotokilof.py:887 fotokilof.py:898
+msgid "JPG files"
+msgstr "JPG 文件"
+
+#: fotokilof.py:888 fotokilof.py:899
+msgid "PNG files"
+msgstr "PNG 文件"
+
+#: fotokilof.py:889 fotokilof.py:900
+msgid "TIFF files"
+msgstr "TIFF 文件"
+
+#: fotokilof.py:890 fotokilof.py:901
+msgid "ALL types"
+msgstr "所有类型"
+
+#: fotokilof.py:996
+msgid ""
+"Sorry, nothing in clipboard\n"
+"Or xclip (X11) or wl-clipboard (Wayland) is not installed\n"
+" Install xclip or wl-clipboard and try again!"
+msgstr "抱歉，剪贴板中没有任何内容\n或者没有安装 xclip (X11) 或 wl-clipboard (Wayland)\n请安装 xclip 或 wl-clipboard 然后重试！"
+
+#: fotokilof.py:998
+msgid "Missing package"
+msgstr "缺少软件包"
+
+#: fotokilof.py:1415
+msgid "License"
+msgstr "许可证"
+
+#: fotokilof.py:1568 fotokilof.py:3482
+msgid "Ready"
+msgstr "准备就绪"
+
+#: fotokilof.py:1593
+msgid "No file selected"
+msgstr "未选择文件"
+
+#: fotokilof.py:1839 fotokilof.py:2526 fotokilof.py:2819
+msgid "dx"
+msgstr "dx"
+
+#: fotokilof.py:1840 fotokilof.py:2527 fotokilof.py:2823
+msgid "dy"
+msgstr "dy"
+
+#: fotokilof.py:1852
+msgid "x"
+msgstr "x"
+
+#: fotokilof.py:1853
+msgid "y"
+msgstr "y"
+
+#: fotokilof.py:1998
+msgid "Image"
+msgstr "图片"
+
+#: fotokilof.py:2003 fotokilof.py:2852 fotokilof.py:2966
+msgid "File selection"
+msgstr "文件选择"
+
+#: fotokilof.py:2007
+msgid "Clipboard"
+msgstr "剪贴板"
+
+#: fotokilof.py:2012
+msgid "First"
+msgstr "第一张"
+
+#: fotokilof.py:2018
+msgid "Previous"
+msgstr "上一张"
+
+#: fotokilof.py:2023
+msgid "Next"
+msgstr "下一张"
+
+#: fotokilof.py:2026
+msgid "Last"
+msgstr "最后一张"
+
+#: fotokilof.py:2041 fotokilof.py:2058
+msgid "Execute all"
+msgstr "全部执行"
+
+#: fotokilof.py:2046
+msgid "Folder"
+msgstr "文件夹"
+
+#: fotokilof.py:2052
+msgid "File"
+msgstr "文件"
+
+#: fotokilof.py:2073
+msgid "Settings"
+msgstr "设置"
+
+#: fotokilof.py:2077
+msgid "Save"
+msgstr "保存"
+
+#: fotokilof.py:2080
+msgid "Load"
+msgstr "加载"
+
+#: fotokilof.py:2094
+msgid "Tools"
+msgstr "工具"
+
+#: fotokilof.py:2099
+msgid "Scaling/Resize"
+msgstr "缩放/调整大小"
+
+#: fotokilof.py:2108 fotokilof.py:2312
+msgid "Crop"
+msgstr "裁剪"
+
+#: fotokilof.py:2117
+msgid "Text"
+msgstr "文本"
+
+#: fotokilof.py:2126 fotokilof.py:2642
+msgid "Rotate"
+msgstr "旋转"
+
+#: fotokilof.py:2135 fotokilof.py:2684
+msgid "Border"
+msgstr "边框"
+
+#: fotokilof.py:2144
+msgid "Black&white"
+msgstr "黑白"
+
+#: fotokilof.py:2152
+msgid "Colors normalize"
+msgstr "色彩标准化"
+
+#: fotokilof.py:2161 fotokilof.py:2733 fotokilof.py:2739
+msgid "Contrast"
+msgstr "对比度"
+
+#: fotokilof.py:2170 fotokilof.py:2790
+msgid "Mirror"
+msgstr "镜像"
+
+#: fotokilof.py:2179 fotokilof.py:2849
+msgid "Logo"
+msgstr "徽标"
+
+#: fotokilof.py:2188 fotokilof.py:2625 fotokilof.py:2652
+msgid "Custom"
+msgstr "自定义"
+
+#: fotokilof.py:2197 fotokilof.py:2809
+msgid "Vignette"
+msgstr "晕影"
+
+#: fotokilof.py:2206
+msgid "EXIF"
+msgstr "EXIF"
+
+#: fotokilof.py:2215 fotokilof.py:2960
+msgid "Compose"
+msgstr "合成"
+
+#: fotokilof.py:2253
+msgid ""
+"Open file for processing\n"
+"Select tools for conversion\n"
+"Execute conversion or perform all conversion in one run"
+msgstr "打开文件进行处理\n选择转换工具\n执行转换或一次性执行所有转换"
+
+#: fotokilof.py:2260
+msgid "Scale/Resize"
+msgstr "缩放/调整大小"
+
+#: fotokilof.py:2274
+msgid "Max"
+msgstr "最大值"
+
+#: fotokilof.py:2285
+msgid "Percent"
+msgstr "百分比"
+
+#: fotokilof.py:2291 fotokilof.py:2451 fotokilof.py:2601 fotokilof.py:2662
+#: fotokilof.py:2699 fotokilof.py:2721 fotokilof.py:2749 fotokilof.py:2777
+#: fotokilof.py:2799 fotokilof.py:2832 fotokilof.py:2855 fotokilof.py:2946
+#: fotokilof.py:2994
+msgid "Execute"
+msgstr "执行"
+
+#: fotokilof.py:2319
+msgid "Coordinates (x1, y1) and (x2, y2)"
+msgstr "坐标 (x1, y1) 和 (x2, y2)"
+
+#: fotokilof.py:2323
+msgid ""
+"Left Upper\n"
+"corner\n"
+"Click left"
+msgstr "左上角\n单击左键"
+
+#: fotokilof.py:2331
+msgid ""
+"Right Lower\n"
+"corner\n"
+"Click right"
+msgstr "右下角\n单击右键"
+
+#: fotokilof.py:2343
+msgid "Origin (x1,y1) and dimensions (X, Y)"
+msgstr "原点 (x1,y1) 和尺寸 (X, Y)"
+
+#: fotokilof.py:2363
+msgid ""
+"Offset (dx,dy), dimensions (X, Y)\n"
+"and gravity"
+msgstr "偏移 (dx,dy), 尺寸 (X, Y)\n和重心"
+
+#: fotokilof.py:2410 fotokilof.py:2562 fotokilof.py:2902 fotokilof.py:3022
+msgid "Center"
+msgstr "中心"
+
+#: fotokilof.py:2446 fotokilof.py:3048 fotokilof.py:3096 fotokilof.py:3128
+msgid "Preview"
+msgstr "预览"
+
+#: fotokilof.py:2449
+msgid "From image"
+msgstr "从图像"
+
+#: fotokilof.py:2490
+msgid "Add text"
+msgstr "添加文本"
+
+#: fotokilof.py:2499
+msgid "Inside"
+msgstr "内部"
+
+#: fotokilof.py:2506
+msgid "Outside"
+msgstr "外部"
+
+#: fotokilof.py:2512 fotokilof.py:2599
+msgid "Background"
+msgstr "背景"
+
+#: fotokilof.py:2515
+msgid "Arrow"
+msgstr "箭头"
+
+#: fotokilof.py:2519
+msgid "Gravity"
+msgstr "重心"
+
+#: fotokilof.py:2593
+msgid "Color test"
+msgstr "颜色测试"
+
+#: fotokilof.py:2595 fotokilof.py:3335
+msgid "Font"
+msgstr "字体"
+
+#: fotokilof.py:2597
+msgid "Height"
+msgstr "高度"
+
+#: fotokilof.py:2657 fotokilof.py:2686 fotokilof.py:2827 fotokilof.py:3014
+msgid "  "
+msgstr "  "
+
+#: fotokilof.py:2659 fotokilof.py:2696 fotokilof.py:2829 fotokilof.py:3010
+msgid "Color"
+msgstr "颜色"
+
+#: fotokilof.py:2713 fotokilof.py:2715
+msgid "Black-white"
+msgstr "黑白"
+
+#: fotokilof.py:2716
+msgid "Sepia"
+msgstr "棕褐色"
+
+#: fotokilof.py:2736
+msgid "Stretch"
+msgstr "拉伸"
+
+#: fotokilof.py:2746
+msgid "Black"
+msgstr "黑色"
+
+#: fotokilof.py:2747
+msgid "White"
+msgstr "白色"
+
+#: fotokilof.py:2765
+msgid "Color normalize"
+msgstr "色彩标准化"
+
+#: fotokilof.py:2768
+msgid "Normalize"
+msgstr "标准化"
+
+#: fotokilof.py:2771
+msgid "AutoLevel"
+msgstr "自动色阶"
+
+#: fotokilof.py:2773
+msgid "Channel:"
+msgstr "通道："
+
+#: fotokilof.py:2811
+msgid "Radius"
+msgstr "半径"
+
+#: fotokilof.py:2815
+msgid "Sigma"
+msgstr "Sigma"
+
+#: fotokilof.py:2864
+msgid ""
+"Width\n"
+"Height"
+msgstr "宽度\n高度"
+
+#: fotokilof.py:2865
+msgid ""
+"Offset\n"
+"(dx,dy)"
+msgstr "偏移\n(dx,dy)"
+
+#: fotokilof.py:2940
+msgid "Custom command"
+msgstr "自定义命令"
+
+#: fotokilof.py:2943
+msgid "Clear"
+msgstr "清除"
+
+#: fotokilof.py:2972 fotokilof.py:3028
+msgid "Bottom"
+msgstr "底部"
+
+#: fotokilof.py:2979 fotokilof.py:3025
+msgid "Right"
+msgstr "右侧"
+
+#: fotokilof.py:2986
+msgid "Autoresize"
+msgstr "自动调整大小"
+
+#: fotokilof.py:3016
+msgid "Top"
+msgstr "顶部"
+
+#: fotokilof.py:3019
+msgid "Left"
+msgstr "左侧"
+
+#: fotokilof.py:3091
+msgid "Original"
+msgstr "原始"
+
+#: fotokilof.py:3122
+msgid "Result"
+msgstr "结果"
+
+#: fotokilof.py:3179
+msgid "Select image file for processing"
+msgstr "选择要处理的图像文件"
+
+#: fotokilof.py:3183
+msgid ""
+"Get image from clipboard.\n"
+"Grabbed image is saved into %TEMP%/today or $TMP/today directory and load "
+"for processing.\n"
+"Linux or BSD - install xclip"
+msgstr "从剪贴板获取图像。\n抓取的图像保存到 %TEMP%/today 或 $TMP/today 目录并加载进行处理。\nLinux 或 BSD - 请安装 xclip"
+
+#: fotokilof.py:3188
+msgid ""
+"Load first image from current directory.\n"
+"Use Home key instead"
+msgstr "从当前目录加载第一张图像。\n请改用 Home 键"
+
+#: fotokilof.py:3192
+msgid ""
+"Load previous image from current directory.\n"
+"Use PgUp key instead"
+msgstr "从当前目录加载上一张图像。\n请改用 PgUp 键"
+
+#: fotokilof.py:3196
+msgid ""
+"Load next image from current directory.\n"
+"Use PgDn key instead"
+msgstr "从当前目录加载下一张图像。\n请改用 PgDn 键"
+
+#: fotokilof.py:3200
+msgid ""
+"Load last image from current directory.\n"
+"Use End key instead"
+msgstr "从当前目录加载最后一张图像。\n请改用 End 键"
+
+#: fotokilof.py:3202
+msgid "Processing all files in current directory"
+msgstr "处理当前目录中的所有文件"
+
+#: fotokilof.py:3203
+msgid "Processing only current file"
+msgstr "仅处理当前文件"
+
+#: fotokilof.py:3204
+msgid "Selection of format output file; JPG, PNG or TIF"
+msgstr "选择输出文件格式；JPG、PNG 或 TIF"
+
+#: fotokilof.py:3208
+msgid ""
+"Perform all selected conversion for current file or all files in current "
+"directory"
+msgstr "对当前文件或当前目录中的所有文件执行所有选定的转换"
+
+#: fotokilof.py:3214
+msgid ""
+"Save all values into configuration file (~/.fotokilof.ini).\n"
+"FotoKilof will load it during starting"
+msgstr "将所有值保存到配置文件 (~/.fotokilof.ini) 中。\nFotoKilof 将在启动时加载它"
+
+#: fotokilof.py:3217
+msgid "Load saved values of conversion"
+msgstr "加载已保存的转换值"
+
+#: fotokilof.py:3222
+msgid ""
+"Scale image, proportions are saved.\n"
+"Specify maximum dimensions of image or percent"
+msgstr "缩放图像，比例将保留。\n指定图像的最大尺寸或百分比"
+
+#: fotokilof.py:3228
+msgid ""
+"Take part of image. Select crop by:\n"
+"- absolute coordinate\n"
+"- absolute coorinate left-top corner plus width and height\n"
+"- gravity plus width and height plus offset.\n"
+"Remember point (0,0) is located in left-top corner of image."
+msgstr "截取图像的一部分。通过以下方式选择裁剪区域：\n- 绝对坐标\n- 左上角绝对坐标加上宽度和高度\n- 重心加上宽度、高度和偏移量。\n请记住，点 (0,0) 位于图像的左上角。"
+
+#: fotokilof.py:3234
+msgid ""
+"Insert text on picture or add text at bottom.\n"
+"Text can be rotated, colored and with background.\n"
+"All font from OS are available"
+msgstr "在图片上插入文本或在底部添加文本。\n文本可以旋转、着色并带有背景。\n操作系统中的所有字体都可用"
+
+#: fotokilof.py:3239
+msgid "Rotate picture by 90, 180, 270 degree or specify own angle of rotation"
+msgstr "将图片旋转 90、180、270 度或指定自己的旋转角度"
+
+#: fotokilof.py:3244
+msgid ""
+"Add border around picture.\n"
+"Specify width of horizontal and vertical border separately"
+msgstr "在图片周围添加边框。\n分别指定水平和垂直边框的宽度"
+
+#: fotokilof.py:3247
+msgid "Convert into black-white or sepia"
+msgstr "转换为黑白或棕褐色"
+
+#: fotokilof.py:3248
+msgid "Change contrast or change range of contrast"
+msgstr "更改对比度或更改对比度范围"
+
+#: fotokilof.py:3249
+msgid "Normalize of color level"
+msgstr "标准化色彩级别"
+
+#: fotokilof.py:3252
+msgid "Make mirror of picture in vertical or horizotal or both direction"
+msgstr "在垂直、水平或双向制作图片的镜像"
+
+#: fotokilof.py:3254
+msgid "Add vignette as on old photography or not the best lens"
+msgstr "像在旧照片上或不是最好的镜头上一样添加晕影"
+
+#: fotokilof.py:3255
+msgid "Insert picture, eg. own logo, into picture"
+msgstr "将图片（例如自己的徽标）插入图片中"
+
+#: fotokilof.py:3256
+msgid ""
+"Processing ImageMagick command.\n"
+"Works only on Linux OS"
+msgstr "处理 ImageMagick 命令。\n仅在 Linux 操作系统上有效"
+
+#: fotokilof.py:3257
+msgid ""
+"If ON keep EXIF data\n"
+"if OFF EXIF data will be removed"
+msgstr "如果开启，则保留 EXIF 数据\n如果关闭，EXIF 数据将被删除"
+
+#: fotokilof.py:3261
+msgid "Display original image by IMdisplay or default image viewer of OS"
+msgstr "通过 IMdisplay 或操作系统的默认图像查看器显示原始图像"
+
+#: fotokilof.py:3263 fotokilof.py:3268
+msgid "Select size of preview"
+msgstr "选择预览尺寸"
+
+#: fotokilof.py:3266
+msgid "Display result image by IMdisplay or default image viewer of OS"
+msgstr "通过 IMdisplay 或操作系统的默认图像查看器显示结果图像"
+
+#: fotokilof.py:3270 fotokilof.py:3361
+msgid "Execute only resize conversion on current picture"
+msgstr "仅对当前图片执行调整大小转换"
+
+#: fotokilof.py:3275
+msgid ""
+"Select crop by absolute coordinate.\n"
+"Remember point (0,0) is located in left-top corner of image."
+msgstr "通过绝对坐标选择裁剪区域。\n请记住，点 (0,0) 位于图像的左上角。"
+
+#: fotokilof.py:3281
+msgid ""
+"Select crop by absolute coorinate left-top corner plus width and height.\n"
+"Remember point (0,0) is located in left-top corner of image."
+msgstr "通过左上角绝对坐标加上宽度和高度选择裁剪区域。\n请记住，点 (0,0) 位于图像的左上角。"
+
+#: fotokilof.py:3287
+msgid ""
+"Select crop by gravity plus width and height plus offset.\n"
+"Remember point (0,0) is located in left-top corner of image."
+msgstr "通过重心加上宽度、高度和偏移量选择裁剪区域。\n请记住，点 (0,0) 位于图像的左上角。"
+
+#: fotokilof.py:3293
+msgid ""
+"x1 - horizontal position of left-top corner of crop\n"
+"Click left mouse button on preview in place of left-top corner"
+msgstr "x1 - 裁剪区域左上角的水平位置\n在预览中左上角的位置单击鼠标左键"
+
+#: fotokilof.py:3299
+msgid ""
+"y1 - vertical position of left-top corner of crop\n"
+"Click left mouse button on preview in place of left-top corner"
+msgstr "y1 - 裁剪区域左上角的垂直位置\n在预览中左上角的位置单击鼠标左键"
+
+#: fotokilof.py:3305
+msgid ""
+"x2 - horizontal position of right-bottom corner of crop\n"
+"Click right mouse button on preview in place of left-top corner"
+msgstr "x2 - 裁剪区域右下角的水平位置\n在预览中左上角的位置单击鼠标右键"
+
+#: fotokilof.py:3311
+msgid ""
+"y2 - vertical position of right-bottom corner of crop\n"
+"Click right mouse button on preview in place of left-top corner"
+msgstr "y2 - 裁剪区域右下角的垂直位置\n在预览中左上角的位置单击鼠标右键"
+
+#: fotokilof.py:3314
+msgid "x1 - horizontal position of left-top corner of crop"
+msgstr "x1 - 裁剪区域左上角的水平位置"
+
+#: fotokilof.py:3315
+msgid "y1 - vertical position of left-top corner of crop"
+msgstr "y1 - 裁剪区域左上角的垂直位置"
+
+#: fotokilof.py:3316 fotokilof.py:3320
+msgid "X - width of crop"
+msgstr "X - 裁剪宽度"
+
+#: fotokilof.py:3317 fotokilof.py:3321
+msgid "Y - height of crop"
+msgstr "Y - 裁剪高度"
+
+#: fotokilof.py:3318
+msgid "dx - horizontal offset from gravity point"
+msgstr "dx - 与重心点的水平偏移"
+
+#: fotokilof.py:3319
+msgid "dy - vertical offsef from gravity point"
+msgstr "dy - 与重心点的垂直偏移"
+
+#: fotokilof.py:3325
+#, python-format
+msgid ""
+"Take size of crop from current picture.\n"
+"Crop will be 100% of original picture"
+msgstr "从当前图片获取裁剪尺寸。\n裁剪将是原始图片的 100%"
+
+#: fotokilof.py:3328
+msgid "Refresh preview to see crop on picture"
+msgstr "刷新预览以在图片上查看裁剪"
+
+#: fotokilof.py:3329
+msgid "Use gravity direction for select crop"
+msgstr "使用重心方向选择裁剪"
+
+#: fotokilof.py:3330
+msgid "Execute only crop conversion on current picture"
+msgstr "仅对当前图片执行裁剪转换"
+
+#: fotokilof.py:3332
+msgid "Click here and type text"
+msgstr "在此处单击并输入文本"
+
+#: fotokilof.py:3333
+msgid "Text size"
+msgstr "文本大小"
+
+#: fotokilof.py:3334
+msgid "Angle of text"
+msgstr "文本角度"
+
+#: fotokilof.py:3336
+msgid "Put text on picture"
+msgstr "在图片上放置文本"
+
+#: fotokilof.py:3337
+msgid "Put text below picture"
+msgstr "在图片下方放置文本"
+
+#: fotokilof.py:3338
+msgid "Use gravity for putting text or Absolute position"
+msgstr "使用重心或绝对位置放置文本"
+
+#: fotokilof.py:3339
+msgid "Use gravity direction for text placement"
+msgstr "使用重心方向进行文本放置"
+
+#: fotokilof.py:3340
+msgid "Use background for text"
+msgstr "为文本使用背景"
+
+#: fotokilof.py:3341
+msgid "Add arrow between text and origin point"
+msgstr "在文本和原点之间添加箭头"
+
+#: fotokilof.py:3342 fotokilof.py:3343
+msgid "Offset from gravity or absolute position"
+msgstr "与重心或绝对位置的偏移"
+
+#: fotokilof.py:3344
+msgid "Selected color of text and background"
+msgstr "选定的文本和背景颜色"
+
+#: fotokilof.py:3345
+msgid "Select color of text"
+msgstr "选择文本颜色"
+
+#: fotokilof.py:3346
+msgid "Select color of background"
+msgstr "选择背景颜色"
+
+#: fotokilof.py:3347
+msgid "Execute only adding text on current picture"
+msgstr "仅在当前图片上执行添加文本转换"
+
+#: fotokilof.py:3349
+msgid "Select if want to use own angle of rotation"
+msgstr "选择是否要使用自己的旋转角度"
+
+#: fotokilof.py:3353
+msgid ""
+"Put angle of rotation. Rotation is in right direction.\n"
+"Background color is as choosed by Color button"
+msgstr "输入旋转角度。向右旋转。\n背景颜色由“颜色”按钮选择"
+
+#: fotokilof.py:3356
+msgid "Selected color to fill a gap"
+msgstr "选定的填充间隙的颜色"
+
+#: fotokilof.py:3357
+msgid "If OWN is choosed, select color to fill a gap."
+msgstr "如果选择“OWN”，请选择填充间隙的颜色。"
+
+#: fotokilof.py:3358
+msgid "Execute only rotate conversion on current picture"
+msgstr "仅对当前图片执行旋转转换"
+
+#: fotokilof.py:3360
+msgid "Put percent for rescale of picture"
+msgstr "输入图片缩放百分比"
+
+#: fotokilof.py:3363
+msgid "Put width of vertical part of border"
+msgstr "输入边框垂直部分的宽度"
+
+#: fotokilof.py:3364
+msgid "Put width of horizontal part of border"
+msgstr "输入边框水平部分的宽度"
+
+#: fotokilof.py:3365
+msgid "Selected color of border"
+msgstr "选定的边框颜色"
+
+#: fotokilof.py:3366
+msgid "Select color of border"
+msgstr "选择边框颜色"
+
+#: fotokilof.py:3367
+msgid "Execute only add border conversion on current picture"
+msgstr "仅对当前图片执行添加边框转换"
+
+#: fotokilof.py:3369
+msgid "Convert picture into gray scale - black-white"
+msgstr "将图片转换为灰度 - 黑白"
+
+#: fotokilof.py:3371
+msgid "Convert picture into sepia - old style silver based photography"
+msgstr "将图片转换为棕褐色 - 旧式银盐摄影风格"
+
+#: fotokilof.py:3373
+msgid "Put threshold of sepia, try values in range 80-95"
+msgstr "输入棕褐色阈值，请尝试 80-95 范围内的值"
+
+#: fotokilof.py:3375
+msgid "Execute only black-white/sepia conversion on current picture"
+msgstr "仅对当前图片执行黑白/棕褐色转换"
+
+#: fotokilof.py:3378
+msgid ""
+"Black point.\n"
+"Try values in range 0-0.2"
+msgstr "黑点。\n请尝试 0-0.2 范围内的值"
+
+#: fotokilof.py:3379
+msgid ""
+"White point.\n"
+"Try values in range 0-0.2"
+msgstr "白点。\n请尝试 0-0.2 范围内的值"
+
+#: fotokilof.py:3382
+msgid "Enhance contrast of image by adjusting the span of the available colors"
+msgstr "通过调整可用颜色的范围来增强图像的对比度"
+
+#: fotokilof.py:3386
+msgid "Enhances the difference between lighter & darker values of the image"
+msgstr "增强图像亮部和暗部之间的差异"
+
+#: fotokilof.py:3391
+msgid ""
+"Select power of reduce (negative values) or increase (positive values) "
+"contrast"
+msgstr "选择降低（负值）或增加（正值）对比度的强度"
+
+#: fotokilof.py:3395
+msgid "Execute only change contrast conversion on current picture"
+msgstr "仅对当前图片执行更改对比度转换"
+
+#: fotokilof.py:3398
+msgid "Normalize color channels"
+msgstr "标准化颜色通道"
+
+#: fotokilof.py:3399
+msgid "Select channel for normalize"
+msgstr "选择要标准化的通道"
+
+#: fotokilof.py:3402
+msgid "Scale the minimum and maximum values to a full quantum range"
+msgstr "将最小值和最大值缩放到完整的量子范围"
+
+#: fotokilof.py:3406
+msgid "Execute only color normalize conversion on current picture"
+msgstr "仅对当前图片执行色彩标准化转换"
+
+#: fotokilof.py:3409
+msgid "Mirror top-bottom"
+msgstr "上下镜像"
+
+#: fotokilof.py:3410
+msgid "Mirror left-right"
+msgstr "左右镜像"
+
+#: fotokilof.py:3411
+msgid "Execute only mirror conversion on current picture"
+msgstr "仅对当前图片执行镜像转换"
+
+#: fotokilof.py:3413
+msgid "Radius of the Gaussian blur effect"
+msgstr "高斯模糊效果的半径"
+
+#: fotokilof.py:3414
+msgid "Standard deviation of the Gaussian effect"
+msgstr "高斯效果的标准差"
+
+#: fotokilof.py:3415
+msgid "Horizontal offset of vignette"
+msgstr "晕影的水平偏移"
+
+#: fotokilof.py:3416
+msgid "Vertical offset of vignette"
+msgstr "晕影的垂直偏移"
+
+#: fotokilof.py:3417
+msgid "Selected color of corners"
+msgstr "选定的角颜色"
+
+#: fotokilof.py:3418
+msgid "Select color of corners"
+msgstr "选择角的颜色"
+
+#: fotokilof.py:3419
+msgid "Execute only vignette conversion on current picture"
+msgstr "仅对当前图片执行晕影转换"
+
+#: fotokilof.py:3421
+msgid "Select picture to put on picture"
+msgstr "选择要放置在图片上的图片"
+
+#: fotokilof.py:3422
+msgid "Width picture"
+msgstr "图片宽度"
+
+#: fotokilof.py:3423
+msgid "Height picture"
+msgstr "图片高度"
+
+#: fotokilof.py:3424
+msgid "Horizontal offset from gravity point"
+msgstr "与重心点的水平偏移"
+
+#: fotokilof.py:3425
+msgid "Vertical offset from gravity point"
+msgstr "与重心点的垂直偏移"
+
+#: fotokilof.py:3426
+msgid "Use gravity for putting picture"
+msgstr "使用重心放置图片"
+
+#: fotokilof.py:3427
+msgid "Execute only add logo on current picture"
+msgstr "仅在当前图片上执行添加徽标"
+
+#: fotokilof.py:3429
+msgid "Select picture to compose with main picture"
+msgstr "选择要与主图片合成的图片"
+
+#: fotokilof.py:3430
+msgid "Join picture at bottom"
+msgstr "在底部拼接图片"
+
+#: fotokilof.py:3431
+msgid "Join picture at right"
+msgstr "在右侧拼接图片"
+
+#: fotokilof.py:3432
+msgid "Autoresize picture if dimensions are not equal"
+msgstr "如果尺寸不相等，则自动调整图片大小"
+
+#: fotokilof.py:3433
+msgid "Selected color to fill gap"
+msgstr "选定的填充间隙的颜色"
+
+#: fotokilof.py:3434
+msgid "Select color of gap"
+msgstr "选择间隙的颜色"
+
+#: fotokilof.py:3435
+msgid "Join picture on right and move to top"
+msgstr "在右侧拼接图片并移至顶部"
+
+#: fotokilof.py:3436
+msgid "Join picture at bottom and move to left"
+msgstr "在底部拼接图片并移至左侧"
+
+#: fotokilof.py:3437
+msgid "Join picture and move to center"
+msgstr "拼接图片并移至中心"
+
+#: fotokilof.py:3438
+msgid "Join picture at bottom and move to right"
+msgstr "在底部拼接图片并移至右侧"
+
+#: fotokilof.py:3439
+msgid "Join picture on right and move to bottom"
+msgstr "在右侧拼接图片并移至底部"
+
+#: fotokilof.py:3440
+msgid "Execute compose picture with current main picture"
+msgstr "执行与当前主图片的图片合成"
+
+#: fotokilof.py:3443
+msgid "Display image to join by IMdisplay or default image viewer of OS"
+msgstr "通过 IMdisplay 或操作系统的默认图像查看器显示要拼接的图像"
+
+#: fotokilof.py:3500
+msgid "New version of FotoKilof is available"
+msgstr "FotoKilof 新版本可用"
