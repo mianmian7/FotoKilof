@@ -438,6 +438,8 @@ def preview(file_in, max_size, coord=""):
                     draw = ImageDraw.Draw(clone)
                     draw.rectangle(rectangle, outline=outline_color, fill=None, width=2)
             preview_width, preview_height = clone.size
+            if clone.mode == 'P':
+                clone = clone.convert('RGB')
             file_preview = os.path.join(tempfile.gettempdir(), "fotokilof_preview.ppm")
             save_close_clone(clone, file_preview)
             result = {

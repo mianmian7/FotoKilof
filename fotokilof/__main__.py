@@ -81,6 +81,7 @@ import check_new_version
 import convert
 import convert_pillow
 import convert_common
+import convert_tinypng
 import common
 import gui
 import ini_read
@@ -197,9 +198,58 @@ def change_ttk_theme(event):
     style.theme_use(new)
 
 
-def print_command(cmd):
-    """print command in custom window"""
-    t_custom.insert(END, cmd + " ")
+def tinypng_compress_button():
+    """compress with tinypng"""
+    if os.path.isfile(file_in_path.get()):
+        progress_files.set(_("Compressing with TinyPNG..."))
+        root.update_idletasks()
+
+        i = 0
+        if file_dir_selector.get() == 0:
+            files_list = [file_in_path.get()]
+        else:
+            dirname = os.path.dirname(file_in_path.get())
+            files_list_short = common.list_of_images(dirname, OS)
+            files_list = []
+            for filename_short in files_list_short:
+                files_list.append(os.path.join(dirname, filename_short))
+
+        file_list_len = len(files_list)
+        for file_in in files_list:
+            workdir = work_dir.get()
+            file_out = convert.out_full_filename(file_in, workdir, co_apply_type.get())
+
+            result = convert_tinypng.compress_file(
+                tinypng_api_key.get(), file_in, file_out
+            )
+
+            if result != "success":
+                if result == "key_missing":
+                    progress_files.set(_("Error: TinyPNG API key is missing."))
+                else:
+                    progress_files.set(_("Error: Compression failed."))
+                root.update_idletasks()
+                return  # Stop processing on error
+
+            preview_new(file_out)
+
+            i = i + 1
+            progress_files.set(str(i) + " " + _("of") + " " + str(file_list_len))
+            progressbar_var.set(i / file_list_len * 100)
+            progress_var.set(i)
+            root.update_idletasks()
+
+        if file_list_len > 0:
+            last_file_in = files_list[-1]
+            file_in_path.set(last_file_in)
+            preview_orig()
+
+        progress_var.set(0)
+        progress_files.set(_("done"))
+        progressbar_var.set(0)
+        root.update_idletasks()
+    else:
+        logging.debug("No file selected")
 
 
 def convert_custom_clear():
@@ -1097,6 +1147,7 @@ def ini_read_wraper():
             logging.getLogger().setLevel(logging.DEBUG)
     img_custom_on.set(ini_entries["img_custom_on"])
     check_version.set(ini_entries["check_version"])
+    tinypng_api_key.set(ini_entries["tinypng_api_key"])
     # resize
     ini_entries = ini_read.resize(FILE_INI)
     img_resize_on.set(ini_entries["img_resize_on"])
@@ -1254,6 +1305,7 @@ def ini_save_wraper():
         "preview_new": co_preview_selector_new.get(),
         "log_level": log_level.get(),
         "check_version": check_version.get(),
+        "tinypng_api_key": tinypng_api_key.get(),
     }
     # resize
     resize = {
@@ -1899,6 +1951,7 @@ work_sub_dir = StringVar()  # subdir for resized pictures
 work_sub_dir.set("")  # default none
 file_dir_selector = IntVar()
 file_in_path = StringVar()  # fullpath original picture
+tinypng_api_key = StringVar(value="4PGdmZhdCHG9NJ53VMl2kTZfcFCFTTNH")
 file_in_width = IntVar()  # width original picture
 file_in_height = IntVar()  # height original picture
 file_in_size = IntVar()  # size original picture (bytes)
@@ -2072,6 +2125,11 @@ rb_apply_file.pack(side=LEFT, padx=5, pady=5, anchor=W)
 
 co_apply_type.pack(side=LEFT, padx=5, pady=1, anchor=W)
 
+b_tinypng_compress = ttk.Button(
+    frame_apply, text=_("Compress with TinyPNG"), bootstyle="success", command=tinypng_compress_button
+)
+b_tinypng_compress.pack(side=LEFT, padx=5, pady=5, anchor=W)
+
 l_pb = ttk.Label(frame_apply, textvariable=progress_files, width=15)
 l_pb.pack(side=LEFT, padx=5, pady=2, anchor=W)
 
@@ -2090,6 +2148,19 @@ b_last_read = ttk.Button(
 
 b_last_save.pack(padx=5, pady=1, anchor=W, side=LEFT)
 b_last_read.pack(padx=5, pady=1, anchor=W, side=LEFT)
+
+
+###########################
+# Tinypng API
+###########################
+frame_tinypng = ttk.LabelFrame(main_menu, text=_("TinyPNG"))
+frame_tinypng.grid(row=1, column=4, sticky=(N, W, E, S), padx=5, pady=5)
+
+l_tinypng_api = ttk.Label(frame_tinypng, text=_("API Key:"))
+e_tinypng_api = ttk.Entry(frame_tinypng, textvariable=tinypng_api_key, width=36, show="*")
+
+l_tinypng_api.pack(side=LEFT, padx=5, pady=5, anchor=W)
+e_tinypng_api.pack(side=LEFT, padx=5, pady=5, anchor=W)
 
 ####################################################################
 # main_tools row

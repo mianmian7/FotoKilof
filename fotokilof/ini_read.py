@@ -111,6 +111,13 @@ def main(file_ini, preview_size_list):
         check_version = 1
     dict_return["check_version"] = entries.parse_list(check_version, (0, 1), 0)
 
+    try:
+        tinypng_api_key = config.get("Main", "tinypng_api_key")
+    except:
+        tinypng_api_key = ""
+    dict_return["tinypng_api_key"] = tinypng_api_key
+
+
     return dict_return
 
 
